@@ -1,14 +1,21 @@
-h1 {
+p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -650px;
+  font-size: 100px;
+  font-family: "Love Ya Like A Sister";
   text-align: center;
-  margin-top: 500px;
-  color: black;
-  animation: blink 2s linear infinite;
+  color: rgb(100, 100, 100);
+  animation: blink 2s ease-in-out infinite;
 }
 
 body {
   background-image: url("../images/paper.jpg");
-
-  background-repeat: repeat-y;
+  background-size: cover;
+  font-family: "Indie Flower", cursive;
+  /* background-repeat: repeat-y; */
 }
 
 @keyframes blink {
@@ -18,13 +25,16 @@ body {
 }
 
 .container {
-  margin-left: 350px;
+  margin-left: 50%;
+  margin-top: 25%;
 }
 
 .space {
+  font-size: 100px;
   height: 3%;
-  width: 3%;
-  margin: 10px;
+  width: 5%;
+  margin: 20px;
   float: left;
-  border-bottom: 5px solid rgb(50, 50, 50, 0);
+  color: rgb(100, 100, 100);
+  border-bottom: 5px solid rgb(80, 80, 80, 1);
 }
