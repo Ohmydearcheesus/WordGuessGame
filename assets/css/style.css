@@ -5,7 +5,7 @@ p {
   margin-top: -50px;
   margin-left: -650px;
   font-size: 100px;
-  font-family: "Love Ya Like A Sister";
+  font-family: "Love Ya Like A Sister", "cursive";
   text-align: center;
   color: rgb(100, 100, 100);
   animation: blink 2s ease-in-out infinite;
@@ -35,6 +35,18 @@ body {
   width: 5%;
   margin: 20px;
   float: left;
-  color: rgb(100, 100, 100);
+  color: rgb(100, 100, 100, 1);
   border-bottom: 5px solid rgb(80, 80, 80, 1);
+}
+
+.scoreboard {
+  float: left;
+  margin-top: 10%;
+  font-family: "Love Ya Like A Sister", "cursive";
+  font-size: 50px;
+  color: rgb(100, 100, 100);
+}
+
+.invisible {
+  display: none;
 }

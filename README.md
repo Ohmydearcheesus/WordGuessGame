@@ -6,16 +6,16 @@ Basically, it's the game called 'Hangman' that we all used to love back in the d
 
 Inspired by this childhood pasttime, the goal will be a 'Hangman' game with some school-age flair. The immediate objectives of this project are as follows:
 
-- A loading screen that says "Press any key to get started"
 - Displays in-game for Win and Loss count
 - A blank spaced letter display with spaces matching that of the word to be guessed
 - Letters that reveal themselves as the player guesses them to form the word
 - A count of the number of guesses remaining
 - A list of the letters that have already been guessed
-- ~~Automatic restart upon win or loss of current game~~ A screen that says "Press any key to play again", just like the start screen
 
 The stretch goals for implementation for this project are as follows:
 
+- ~~Automatic restart upon win or loss of current game~~ A screen that says "Press any key to play again", just like the start screen
+- A loading screen that says "Press any key to get started"
 - An animation before the "Press any key to get started" screen that writes out the game's title, 'Hangman'
 - A flashing animation for the "Press any key to get started" screen
 - Animations that add a stick figure hangman with body parts being added in as the guess count decreases
